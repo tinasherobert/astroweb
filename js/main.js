@@ -859,8 +859,8 @@ function checkSupport(elemname, pluginname) {
     "use strict";
 
     function initialize() {
-        /* change your with your coordinates */
-        var myLatLng = new google.maps.LatLng(41.039193, 28.993818), // Your coordinates
+        /* change your with your coordinates -17.8307923,31.0448754 */
+        var myLatLng = new google.maps.LatLng(-17.8307923, 31.0448754), // Your coordinates
             mappy = {
                 center: myLatLng,
                 zoom: 15,
