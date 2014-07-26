@@ -1358,11 +1358,13 @@ parent's font-size:0
 
 .innovation-text {
 	font-family: Roboto, sans-serif; 
-	font-size: 25px; 
-	line-height: 110%;
+	font-size: 23px; 
+	line-height: 120%;
 	text-align:justify;
 	color: #000000;
+	padding-left:15px;
 }
+
 /* General product style */
 .item {
 	position: relative;
