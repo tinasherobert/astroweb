@@ -1356,7 +1356,13 @@ parent's font-size:0
 	display:inline-block !important;
 }
 
-
+.innovation-text {
+	font-family: Roboto, sans-serif; 
+	font-size: 25px; 
+	line-height: 110%;
+	text-align:justify;
+	color: #000000;
+}
 /* General product style */
 .item {
 	position: relative;
@@ -1983,6 +1989,10 @@ select.input-lg {
 	opacity:1;
 }
 
+@font-face { 
+	font-family: Roboto; src: url('fonts/Roboto-Light.ttf'); } 
+@font-face { 
+	font-family: Roboto; font-weight: bold; src: url('fonts/Roboto-Bold.ttf');}
 
 
 /* =============================================
@@ -5767,6 +5777,21 @@ html[xmlns] .slides {display: block;}
 	margin-bottom: 20px;
 }
 
+hr.style-seven { 
+	height: 30px; 
+	border-style: solid; 
+	border-color: #C0E226; 
+	border-width: 3px 0 0 0; 
+	border-radius: 20px; } 
+hr.style-seven:before {
+	display: block; 
+	content: ""; 
+	height: 30px; 
+	margin-top: -31px; 
+	border-style: solid; 
+	border-color: #C0E226; 
+	border-width: 0 0 3px 0; 
+	border-radius: 20px; }
 /* =============================================
 ------------ 404 Page   ----------
 ==============================================*/
